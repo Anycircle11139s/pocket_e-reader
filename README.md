@@ -1,4 +1,6 @@
 # pocket_e-reader
+PocketReader is a minimal ESP32-based e-reader I built for Hack Club Stasis. It hosts its own WiFi access point so you can upload any .txt file straight from your browser, then displays it page by page on an e-paper screen using two physical buttons to navigate. It saves your reading position to flash storage on every page turn so it always picks up where you left off, and drops into light sleep after 30 seconds of inactivity to save power. So far the core reading loop, WiFi upload, and position saving are all working. For v2, next up is improving the back-navigation and adding a settings menu triggered by holding the next button.<img width="646" height="687" alt="Screenshot 2026-04-15 at 4 47 40 pm" src="https://github.com/user-attachments/assets/5c396f89-5fab-4919-9a2e-0f7cb67089a1" />
+
 
 BOM:
 
